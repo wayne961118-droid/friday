@@ -1,0 +1,19 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "firestore.rules",
+      "**/.*",
+      "**/node_modules/**",
+      "**/*.mp4",
+      "**/*.zip",
+      "大學宣導影片素材/**",
+      "大學宣導影片素材 2/**",
+      "大學宣導影片素材 3/**"
+    ]
+  }
+}
